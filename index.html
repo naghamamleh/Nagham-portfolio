@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nagham Alamleh | Student Portfolio</title>
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="home">
+
+        <h1>Nagham ALamleh</h1>
+        <p><em>Today's Effort Builds Tomorrow's Future.</em></p>
+
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#about">About Me</a> |
+            <a href="#projects">My Projects</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <hr>
+    </header>
+
+
+    <main>
+
+        <!-- Section 1: About Me -->
+        <section id="about">
+
+            <h2>Hello, I'm Nagham!</h2>
+
+            <img src="images/profile.png" alt="Computer engineering student" width="200">
+
+            <p>
+                My name is Nagham Alamleh. I am a second-year
+                Computer Systems Engineering student at
+                Palestine Polytechnic University.
+            </p>
+
+            <p>
+                I enjoy learning programming, designing, and
+                solving problems. I hope to use technology
+                to help people.
+            </p>
+
+            <h3>My Goals</h3>
+
+            <p>
+                My goal is to create useful technology projects
+                that help my country, Palestine, and make
+                people's lives better.
+            </p>
+
+            <h3>My Skills</h3>
+
+            <ul>
+                <li>C++ Programming</li>
+                <li>HTML</li>
+                <li>Problem Solving</li>
+                <li>Teamwork</li>
+                <li>Communication</li>
+                <li>Creativity</li>
+                <li>Critical Thinking</li>
+                <li>Microsoft Office</li>
+            </ul>
+
+            <h3>My Interests</h3>
+
+            <p>
+                I enjoy designing and creating new ideas.
+            </p>
+
+            <p>
+                <strong>
+                    I believe today's work can build a better tomorrow.
+                </strong>
+            </p>
+
+        </section>
+
+        <hr>
+
+
+        <!-- Section 2: My Projects -->
+        <section id="projects">
+
+            <h2>My Projects and Achievements</h2>
+
+            <p>
+                These are three projects I hope to create
+                in the future.
+            </p>
+
+            <!-- Project 1 -->
+            <h3>1. C++ Programming Project</h3>
+
+            <img src="images/cpp-project.gif" alt="C++ programming project" width="250">
+
+            <p>
+                I want to create a C++ program that helps
+                people organize information.
+            </p>
+
+            <p><em>Future Project Idea</em></p>
+
+
+            <!-- Project 2 -->
+            <h3>2. Student Task Planner</h3>
+
+            <img src="images/task-planner.gif" alt="Student task planner" width="250">
+
+            <p>
+                I want to make a planner to help students
+                organize homework and exams.
+            </p>
+
+            <p><em>Future Project Idea</em></p>
+
+
+            <!-- Project 3 -->
+            <h3>3. Educational Technology Platform</h3>
+
+            <img src="images/education.gif" alt="Online education for students" width="250">
+
+            <p>
+                I hope to create a website with learning
+                resources for Palestinian students.
+            </p>
+
+            <p><em>Future Project Idea</em></p>
+
+        </section>
+
+        <hr>
+
+
+        <!-- Section 3: Contact Me -->
+        <section id="contact">
+
+            <h2>Let's Get in Touch!</h2>
+
+            <p>
+                Have a question or an idea?
+                You can contact me here.
+            </p>
+
+            <form action="thanks.html" method="get" target="_blank">
+
+                <fieldset>
+
+                    <legend>Contact Form</legend>
+
+                    <!-- Full Name -->
+                    <p>
+                        <label for="fullName">Full Name:</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </p>
+
+                    <!-- Email -->
+                    <p>
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                    <!-- Reason for Contact -->
+                    <p>
+                        <label for="reason">Reason for Contact:</label>
+
+                        <select id="reason" name="reason" required>
+                            <option value="">Choose a reason</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="project">Project Collaboration</option>
+                            <option value="internship">Internship Opportunity</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+
+                    <!-- Contact Preference -->
+                    <p>Contact Preference:</p>
+
+                    <input type="radio" id="byEmail" name="contactPreference" value="email">
+                    <label for="byEmail">Email</label>
+
+                    <input type="radio" id="byPhone" name="contactPreference" value="phone">
+                    <label for="byPhone">Phone</label>
+
+
+                    <!-- Topics of Interest -->
+                    <p>Topics of Interest:</p>
+
+                    <input type="checkbox" id="web" name="topics" value="web">
+                    <label for="web">Web Development</label>
+                    <br>
+
+                    <input type="checkbox" id="programming" name="topics" value="programming">
+                    <label for="programming">Programming</label>
+                    <br>
+
+                    <input type="checkbox" id="ai" name="topics" value="ai">
+                    <label for="ai">Artificial Intelligence</label>
+
+
+                    <!-- Meeting Date -->
+                    <p>
+                        <label for="meetingDate">Preferred Meeting Date:</label>
+                        <input type="date" id="meetingDate" name="meetingDate">
+                    </p>
+
+
+                    <!-- Message -->
+                    <p>
+                        <label for="message">Additional Message:</label>
+                    </p>
+
+                    <textarea id="message" name="message" rows="5" cols="35"></textarea>
+
+
+                    <!-- Buttons -->
+                    <p>
+                        <button type="submit">Send Message</button>
+                        <button type="reset">Reset Form</button>
+                    </p>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <hr>
+
+        <!-- Contact Information -->
+        <h3>Contact Information</h3>
+
+        <p>
+            Email:
+            <a href="mailto:nagham.kamal110@gmail.com">
+                nagham.kamal110@gmail.com
+            </a>
+        </p>
+
+
+        <!-- Social Media -->
+        <h3>Social Media</h3>
+
+        <a href="https://www.linkedin.com/" target="_blank">
+            <img src="images/linkedin.png" alt="LinkedIn" width="40">
+        </a>
+
+        <a href="https://github.com/" target="_blank">
+            <img src="images/github.png" alt="GitHub" width="40">
+        </a>
+
+        <a href="https://www.instagram.com/" target="_blank">
+            <img src="images/instagram.png" alt="Instagram" width="40">
+        </a>
+
+
+        <!-- My Location -->
+        <h3>My Location</h3>
+
+        <p>Hebron, Palestine</p>
+
+        <iframe src="https://maps.google.com/maps?q=Hebron%2C%20Palestine&amp;output=embed"
+                width="450"
+                height="300"
+                title="Map of Hebron">
+        </iframe>
+
+
+        <!-- Footer Ending -->
+        <hr>
+
+        <p>
+            NAGHAM ALAMLEH |
+            Today's Effort Builds Tomorrow's Future.
+        </p>
+
+        <a href="#home">
+            <img src="images/up-arrow.gif" alt="Back to Top" width="100">
+        </a>
+
+    </footer>
+
+</body>
+</html>
